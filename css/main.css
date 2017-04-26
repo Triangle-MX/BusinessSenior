@@ -1,6 +1,8 @@
 
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Anton');
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {font-family:"CMSansSerif-Medium";src:url("CM_Sans_Serif_2012.eot?") format("eot"),url("CM_Sans_Serif_2012.woff") format("woff"),url("CM_Sans_Serif_2012.ttf") format("truetype"),url("CM_Sans_Serif_2012.svg#CMSansSerif-Medium") format("svg");font-weight:normal;font-style:normal;}
 
 /* Animaciones */
 @import url('animations.css');
@@ -24,11 +26,13 @@ Transición .75s ease-in-out
 
 ::-moz-selection {
     text-shadow: none;
-    background: #4A71ED;
+    background: #662d91;
+    color: #fff;
 }
 ::selection {
     text-shadow: none;
-    background: #4A71ED;
+    background: #662d91;
+    color: #fff;
 }
 img::-moz-selection {
   background: transparent;
@@ -42,7 +46,7 @@ img::-moz-selection {
 
 body {
     font-size: 18px !important;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
     color: #1b1b1b;
     /*background-color: #1b1b1b;*/
@@ -58,12 +62,11 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
+    font-family:"CMSansSerif-Medium", sans-serif;
 }
 
 a {
@@ -98,13 +101,14 @@ a:hover {
 }
 
 #hero-logo {
-    width: 400px;
+    max-width: 400px;
+    width: auto;
     margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 995px) {
     .hero {
-        padding-top: 125px;
+        padding-top: 140px;
         background-size: cover;
         background-position: bottom left;
     }
@@ -115,7 +119,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
     .hero {
-        padding-top: 80px;
+        padding-top: 140px;
     }
     .hero-img {
         width: 145px;
@@ -127,23 +131,24 @@ a:hover {
 }
 
 .hero-intro strong {
-    font-family: 'Montserrat', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 105%;
     
-    color: #662d91;
+    color: #262262;
 }
 
 .hero-cta {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 95%;
+    font-family:"CMSansSerif-Medium", sans-serif;
+    letter-spacing: 1px;
+    font-size: 100%;
     
-    background-color: #662d91;
+    background-color: #262262;
     
     color: #fff;
     
     border-radius: 250px;
     
-    padding: 15px 30px;
+    padding: 15px 30px 13px 30px;
     margin-top: 10px;
     
     text-decoration: none;
@@ -153,7 +158,7 @@ a:hover {
 
 .hero-cta:hover, .hero-cta:active, .hero-cta:visited {
     color: #fff;
-    background-color: #262262;
+    background-color: #662d91;
     text-decoration: none !important;
 }
 
@@ -181,17 +186,16 @@ a:hover {
 }
 
 .section-title span{
-    color: #662d91;
+    color: #262262;
 }
 
 .section-lead {
     font-size: 100%;
     text-align: center;
-    font-weight: 300;
 }
 
 .divider {
-    background-color: #662d91;
+    background-color: #262262;
     
     width: 40px;
     height: 4px;
@@ -276,7 +280,7 @@ a:hover {
 .step-icon {
     font-size: 40px;
     
-    color: #662d91;
+   color: #262262;
 }
 .step-title {
     font-family: 'Montserrat', sans-serif;
