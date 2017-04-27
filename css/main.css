@@ -4,15 +4,12 @@
 
 @font-face {font-family:"CMSansSerif-Medium";src:url("CM_Sans_Serif_2012.eot?") format("eot"),url("CM_Sans_Serif_2012.woff") format("woff"),url("CM_Sans_Serif_2012.ttf") format("truetype"),url("CM_Sans_Serif_2012.svg#CMSansSerif-Medium") format("svg");font-weight:normal;font-style:normal;}
 
-/* Animaciones */
-@import url('animations.css');
-
 /* Animate.css */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
 
 /* 
 Importante: font-family: 'Anton', sans-serif;
-Títulos: font-family: 'Montserrat', sans-serif;
+Títulos: font-family:"CMSansSerif-Medium", sans-serif;
 Texto: font-family: 'Lato', sans-serif;
 
 Tamaño de Texto: 16px
@@ -42,6 +39,10 @@ img::selection {
 }
 img::-moz-selection {
   background: transparent;
+}
+
+img {
+    width: 100%;
 }
 
 body {
@@ -94,7 +95,18 @@ a:hover {
     padding-top: 130px;
     
     overflow: hidden;
+    
+    animation-name: hero-anim;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    
 }
+
+/* Hero Entrance
+@keyframes hero-anim {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}*/
 
 .hero-textbox {
     color: #262262 !important;
@@ -220,7 +232,7 @@ a:hover {
 }
 
 .section-cta {
-    font-family: 'Montserrat', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 100%;
     
     background-color: #ffb61e;
@@ -240,7 +252,7 @@ a:hover {
 }
 
 .c-btn {
-    font-family: 'Montserrat', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 100%;
     
     background-color: #1b1b1b;
@@ -261,13 +273,39 @@ a:hover {
 
 /* Proceso */
 
-#proceso {
+#que-es {
     padding: 50px 0;
     background-color: white;
+    text-align: justify;
     /*background-color: rgba(256,256,256,.97);
     background-image: url(../img/pattern.svg);
     background-blend-mode: overlay;
     background-attachment: fixed;*/
+}
+
+#que-es elemento {
+    text-align: center;
+    padding: 10px;
+}
+
+#que-es elemento texto {
+    font-size: 90%;
+}
+
+#que-es elemento span {
+    color: #262262;
+    
+    font-family:"CMSansSerif-Medium", sans-serif;
+    font-size: 110%;
+    
+    display: block;
+}
+
+#que-es p span {
+    color: #262262;
+    
+    font-family:"CMSansSerif-Medium", sans-serif;
+    font-size: 110%;
 }
 
 .step {
@@ -283,7 +321,7 @@ a:hover {
    color: #262262;
 }
 .step-title {
-    font-family: 'Montserrat', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 115%;
     font-weight: 500;
 }
@@ -549,7 +587,7 @@ a:hover {
 }
 
 .trademark {
-    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 140%;
 }
 
@@ -598,7 +636,7 @@ a:hover {
 .marketing-title {
     display: block;
     font-weight: 700;
-    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 110%;
 }
 
