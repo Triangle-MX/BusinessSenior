@@ -277,10 +277,8 @@ a:hover {
     padding: 50px 0;
     background-color: white;
     text-align: justify;
-    /*background-color: rgba(256,256,256,.97);
-    background-image: url(../img/pattern.svg);
-    background-blend-mode: overlay;
-    background-attachment: fixed;*/
+    
+    padding-bottom: 0px;
 }
 
 #que-es elemento {
@@ -308,6 +306,32 @@ a:hover {
     font-size: 110%;
 }
 
+.circular1 {
+    padding: 50px;
+    color: white;
+}
+
+.circular1 span {
+    color: white;
+}
+
+.circular2 {
+    padding: 40px;
+    color: white;
+}
+
+.circular1 span, .circular2 span {
+    font-family:"CMSansSerif-Medium", sans-serif;
+    font-size: 110%;
+    display: block;
+}
+
+.circular1 texto, .circular2 texto {
+    
+    font-size: 90%;
+    text-align: left;
+}
+
 .step {
     padding:10px;
     background-color: ;
@@ -316,14 +340,14 @@ a:hover {
 }
 
 .step-icon {
-    font-size: 40px;
-    
+    margin-bottom: 20px;
    color: #262262;
 }
 .step-title {
     font-family:"CMSansSerif-Medium", sans-serif;
     font-size: 115%;
     font-weight: 500;
+    color: #262262;
 }
 
 .step-text {
