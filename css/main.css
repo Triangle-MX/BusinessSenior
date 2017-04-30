@@ -54,6 +54,8 @@ body {
     
     margin: 0px;
     padding: 0px;
+    
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 600px) {
@@ -276,7 +278,7 @@ a:hover {
 #que-es {
     padding: 50px 0;
     background-color: white;
-    text-align: justify;
+    
     
     padding-bottom: 0px;
 }
@@ -287,7 +289,7 @@ a:hover {
 }
 
 #que-es elemento texto {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 #que-es elemento span {
@@ -316,7 +318,7 @@ a:hover {
 }
 
 .circular2 {
-    padding: 40px;
+    padding: 50px;
     color: white;
 }
 
