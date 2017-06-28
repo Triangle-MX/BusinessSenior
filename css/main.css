@@ -1,8 +1,6 @@
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-@font-face {font-family:"CMSansSerif-Medium";src:url("CM_Sans_Serif_2012.eot?") format("eot"),url("CM_Sans_Serif_2012.woff") format("woff"),url("CM_Sans_Serif_2012.ttf") format("truetype"),url("CM_Sans_Serif_2012.svg#CMSansSerif-Medium") format("svg");font-weight:normal;font-style:normal;}
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 /* Animate.css */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
@@ -20,6 +18,10 @@ Blanco: #FFFFFF
 
 Transición .75s ease-in-out
 */
+
+p {
+    text-align: justify;
+}
 
 ::-moz-selection {
     text-shadow: none;
@@ -65,11 +67,18 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
 }
 
 h1 {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-size: 250%;
+    font-family:"Merriweather", sans-serif;
+}
+
+@media (max-width:720px) {
+    .section-title {
+        font-size: 180%;
+    }
 }
 
 a {
@@ -145,14 +154,14 @@ a:hover {
 }
 
 .hero-intro strong {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 105%;
     
     color: #262262;
 }
 
 .hero-cta {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     letter-spacing: 1px;
     font-size: 100%;
     
@@ -195,7 +204,7 @@ a:hover {
 }
 
 .section-title {
-    font-size: 45px;
+    
     text-align: center;
 }
 
@@ -234,7 +243,7 @@ a:hover {
 }
 
 .section-cta {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 100%;
     
     background-color: #ffb61e;
@@ -254,7 +263,7 @@ a:hover {
 }
 
 .c-btn {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 100%;
     
     background-color: #1b1b1b;
@@ -295,7 +304,7 @@ a:hover {
 #que-es elemento span {
     color: #262262;
     
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 110%;
     
     display: block;
@@ -304,7 +313,7 @@ a:hover {
 #que-es p span {
     color: #262262;
     
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 110%;
 }
 
@@ -323,7 +332,7 @@ a:hover {
 }
 
 .circular1 span, .circular2 span {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 110%;
     display: block;
 }
@@ -346,7 +355,7 @@ a:hover {
    color: #262262;
 }
 .step-title {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 115%;
     font-weight: 500;
     color: #262262;
@@ -624,7 +633,7 @@ a:hover {
 }
 
 .trademark {
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 140%;
 }
 
@@ -673,7 +682,7 @@ a:hover {
 .marketing-title {
     display: block;
     font-weight: 700;
-    font-family:"CMSansSerif-Medium", sans-serif;
+    font-family:"Merriweather", sans-serif;
     font-size: 110%;
 }
 
